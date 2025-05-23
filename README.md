@@ -56,7 +56,7 @@ Nous n'avons pas réussi à résoudre ce problème.
 Le développement des modèles ESRGAN et SwinIR n'a pas abouti.
 
 ### Limitation 3
-L'application ne fonctionne pas sur les appareils Apple Mac en raison de problème de dépendances du package `basicsr`.
+L'application ne fonctionne pas sur les appareils macOS en raison de problème de dépendances du package `basicsr`.
 
 ## Contributions
 * Théo LEPÈRE
