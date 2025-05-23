@@ -56,3 +56,15 @@ if uploaded_file is not None:
                         file_name=f"{img_name}_upscaled{extension}",
                         mime="image/png"
                     )
+            
+
+            elif model_type=="SRGAN":
+
+                file_bytes = np.frombuffer(uploaded_file.read(), np.uint8)
+                img_name, extension = os.path.splitext(os.path.basename(uploaded_file.name))
+                input_image = Image.open(uploaded_file)
+                st.image(input_image, caption="Image originale", use_container_width=True)
+                print(model_type)
+
+            elif model_type=="SwinIR":
+                print(model_type) 
