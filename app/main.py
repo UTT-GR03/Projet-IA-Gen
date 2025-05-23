@@ -4,7 +4,7 @@ import os
 import cv2
 import io
 from PIL import Image
-from models.real_esrgan import RealESRGAN
+#from models.real_esrgan import RealESRGAN
 
 st.set_page_config(page_title="Restauration d'image IA", layout="centered")
 
